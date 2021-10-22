@@ -1,8 +1,8 @@
 const theme = {
   background: '#11172B',
   backgroundLight: '#1B2138',
-  primary: '#C9EDDC',
-  secondary: '#89B6A5',
+  primary: '#B54851',
+  secondary: '#752F35',
   gradient: 'linear-gradient(225deg, #313860 0%, #11172B 100%);',
   text: '#84 8DA0',
   textHighlight: '#6A706E',

@@ -1,8 +1,15 @@
+import { HomeContainer } from '../styles/HomeStyles'
+import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <div>
-     
-    </div>
+    <HomeContainer>
+      <Header />
+
+      <main className='container'>
+        <HomeHero/>
+      </main>
+
+    </HomeContainer>
   );
 }
