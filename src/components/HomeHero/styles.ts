@@ -116,12 +116,9 @@ export const CodeItem = styled.pre`
   }
 
   span.purple {
-    color: #c38cdd;
+    color: #506AD4;
   }
 
-  span.name {
-    color: #7ac7e3;
-  }
 
   span.comment {
     color: ${({ theme }) => theme.text};
