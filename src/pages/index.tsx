@@ -11,6 +11,7 @@ import { GetStaticProps } from 'next';
 import { getPrismicClient } from '../services/prismic';
 import Prismic from '@prismicio/client'
 import { useEffect } from 'react';
+import Head from 'next/head'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -33,10 +34,15 @@ export default function Home({ projects }: HomeProps) {
       duration: 1500,
     })
     AOS.refresh()
-  },[])
+  }, [])
 
   return (
     <HomeContainer>
+      <Head>
+        <title>Início | Portfólio</title>
+        <meta name="description" content="Este é um portfólio desenvolvido para mostrar alguns de meus projetos que estão no ar" />
+        <meta property='og:description' content='Este é um portfólio desenvolvido para mostrar alguns de meus projetos que estão no ar'/>
+      </Head>
       <Header />
 
       <main className='container'>

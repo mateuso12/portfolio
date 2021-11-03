@@ -4,6 +4,7 @@ import ProjectPageItem from "../../components/ProjectPageItem";
 import { getPrismicClient } from "../../services/prismic";
 import { ProjetosContainer } from "../../styles/ProjetosStyles";
 import Prismic from '@prismicio/client'
+import Head from "next/head";
 
 interface IProject {
   slug: string;
@@ -20,7 +21,11 @@ interface ProjectPageProps {
 
 export default function Projetos({projects}: ProjectPageProps) {
   return (
+
     <ProjetosContainer>
+      <Head>
+        <title>Projetos | Portfólio</title>
+      </Head>
       <Header />
       <main className='container'>
         {projects.map(project => (
@@ -36,6 +41,7 @@ export default function Projetos({projects}: ProjectPageProps) {
        </main>
       
     </ProjetosContainer>
+    
   )
 }
 

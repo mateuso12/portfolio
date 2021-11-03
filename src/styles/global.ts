@@ -1,3 +1,4 @@
+import { darken } from 'polished';
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
@@ -6,6 +7,18 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 2px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: ${({ theme }) => theme.primary};
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-track{
+      background: ${({ theme }) => darken(0.04, theme.background)};
+    }
   }
 
   body {
@@ -48,5 +61,4 @@ export default createGlobalStyle`
       padding: 0 2rem;
     }
   }
-
 `;

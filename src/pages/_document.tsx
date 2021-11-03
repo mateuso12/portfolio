@@ -45,7 +45,7 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
           <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+          <link rel="shortcut icon" href="/icon.png" type="image/png" />
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         </Head>
