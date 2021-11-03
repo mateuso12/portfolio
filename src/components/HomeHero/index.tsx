@@ -4,7 +4,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 function HomeHero() {
   return (
-    <Container>
+    <Container data-aos='fade-up'>
       <LazyLoadImage src={myImg} alt="Foto de pessoa" delayTime={300}/>
       <div>
         <TextContainer>

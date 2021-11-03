@@ -5,7 +5,7 @@ import { Container } from './styles';
 
 function ContactForm() {
   return (
-    <Container>
+    <Container data-aos='fade'>
       <SectionTitle 
       title={
         <>

@@ -57,6 +57,7 @@ export const ContainerItem = styled.div`
       color: ${({ theme }) => theme.textLight};
       font-size: 1rem;
       font-weight: 300;
+      text-align: justify;
     }
   }
 

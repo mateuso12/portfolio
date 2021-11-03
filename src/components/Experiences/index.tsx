@@ -2,31 +2,24 @@ import SectionTitle from '../SectionTitle';
 import ExperienceItem from './ExperienceItem';
 import { Container } from './styles';
 
+
+
 function Experiences() {
+ 
   return (
     <Container>
-      <SectionTitle title='01 Ano' description='de experiência'/>
+      <SectionTitle title='01 Ano' description='de experiência' />
 
-      <section>
+      <section data-aos='fade'>
         <ExperienceItem
         year = '2021'
         title = 'Desenvolvedor Front End'
-        description = ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vitae alias magni, consectetur neque repellendus hic quis laudantium animi atque? Voluptatum.'
+        description = 'Colaborando com um projeto de código privado, criando desde o zero toda a aplicação'
         />
         <ExperienceItem
         year = '2021'
         title = 'Desenvolvedor Front End'
-        description = ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vitae alias magni, consectetur neque repellendus hic quis laudantium animi atque? Voluptatum.'
-        />
-        <ExperienceItem
-        year = '2021'
-        title = 'Desenvolvedor Front End'
-        description = ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vitae alias magni, consectetur neque repellendus hic quis laudantium animi atque? Voluptatum.'
-        />
-        <ExperienceItem
-        year = '2021'
-        title = 'Desenvolvedor Front End'
-        description = ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vitae alias magni, consectetur neque repellendus hic quis laudantium animi atque? Voluptatum.'
+        description = 'Desenvolvendo projetos próprios para colocar em prática os conhecimentos que eu adquiri até o momento'
         />
       </section>
     </Container>

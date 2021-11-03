@@ -50,7 +50,7 @@ export const Container = styled.section`
   }
 `;
 
-export const ProjectContainer = styled.div<ProjectProps>`
+export const ProjectItemContainer = styled.div<ProjectProps>`
   width: 100%;
   display: flex;
   height: 25rem;
@@ -111,7 +111,7 @@ export const ProjectContainer = styled.div<ProjectProps>`
       right: -10rem; 
       transition: 0.5s;
       width: fit-content;
-
+      
       h1 {
         color: ${({ theme }) => theme.primary};
         font-size: 2.5rem;

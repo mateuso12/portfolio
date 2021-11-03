@@ -9,9 +9,9 @@ import { Container } from './styles';
 
 function Stacks() {
   return (
-    <Container>
+    <Container >
       <SectionTitle title='Conhecimentos'/>
-      <section>
+      <section data-aos='fade'>
         <StacksItem title='HTML' icon={<AiFillHtml5 />} />
         <StacksItem title='CSS' icon={<FaCss3Alt />} />
         <StacksItem title='Javascript' icon={<IoLogoJavascript />} />
