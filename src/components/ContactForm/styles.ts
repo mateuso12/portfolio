@@ -23,13 +23,13 @@ export const FormContainer = styled.form `
     transition: .5s;
     width: fit-content;
 
-    &:disabled {
+    /* &:disabled {
       background-color: ${({ theme}) => grayscale(theme.primary)};
     } 
 
     &:not(:disabled):hover {
       background-color: ${({ theme }) => darken(0.1, theme.primary)};
-    }
+    } */
   }
 
   @media (max-width: 700px) {
@@ -72,7 +72,7 @@ export const Input = styled.input `
   }
 `;
 
-export const TextArea = styled.input `
+export const TextArea = styled.textarea `
   height: 10rem;
   width: 100%;
   background: ${({ theme}) => darken(0.03, theme.inputBackground) };
