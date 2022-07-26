@@ -14,12 +14,17 @@ function Experiences() {
         <ExperienceItem
         year = '2021'
         title = 'Desenvolvedor Front End'
-        description = 'Colaborando com um projeto de código privado, criando desde o zero toda a aplicação'
+        description = 'Responsável por desenvolver estruturas de interface e funcionalidades para o usuário, utilizando de ultimas tecnologias disponíveis no mercado'
         />
         <ExperienceItem
         year = '2021'
         title = 'Desenvolvedor Front End'
-        description = 'Desenvolvendo projetos próprios para colocar em prática os conhecimentos que eu adquiri até o momento'
+        description = 'Desenvolvendo e aplicando soluções em aplicações front end em projetos freelance e de estudo, buscando sempre otimizar o desempenho e a performance da aplicação, procurando sempre manter um bom padrão de código'
+        />
+        <ExperienceItem
+        year = '2022'
+        title = 'Desenvolvedor Front End'
+        description = 'Responsável por desenvolver novas funcionalidades e solucionar problemas de um produto para realização de grandes eventos on-line para empresas!'
         />
       </section>
     </Container>
